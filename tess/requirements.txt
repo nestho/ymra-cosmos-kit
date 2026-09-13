@@ -1,0 +1,9 @@
+# ابزار رسمی جامعهٔ نجوم برای دادهٔ Kepler / TESS / K2
+lightkurve>=2.4
+numpy>=1.24
+matplotlib>=3.7
+astropy>=6.0
+pandas>=2.0
+scipy>=1.11
+# اختیاری برای گام ۳ (ML خیلی ساده)
+scikit-learn>=1.3

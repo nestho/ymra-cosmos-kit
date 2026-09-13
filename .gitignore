@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+tess/output/*.png
+tess/output/*.csv
+tess/output/*.txt
+!tess/output/.gitkeep
+.DS_Store
+.idea/
+.vscode/
+*.log
