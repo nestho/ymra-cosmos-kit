@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>کیت کیهان</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      var segs = location.pathname.split("/").filter(Boolean);
+      var repo = "ymra-cosmos-kit";
+      var after = segs[0] === repo ? segs.slice(1) : segs;
+      var page = after.join("/") || "home";
+      if (page === "index.html") page = "home";
+      var root = segs[0] === repo ? "/" + repo + "/" : "/";
+      location.replace(root + "#/" + page);
+    })();
+  </script>
+</head>
+<body>
+  <p><a href="./">کیت کیهان</a></p>
+</body>
+</html>
